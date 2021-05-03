@@ -42,10 +42,12 @@ function dateTime (date, option=1){
 /**
  * Function for finding the location when user inserts latitude and longitude
  * Retains Zoom value
+ * Also adds a mark
  */
 function mapFind() {
     mymap.setView([document.getElementById("latitude").value, document.getElementById("longitude").value], mymap.getZoom())
     solarCalc()
+    mapMark()
 }
 
 /** 
@@ -53,7 +55,7 @@ function mapFind() {
  */
 function mapMark() {
     let marker = L.marker([document.getElementById("latitude").value, document.getElementById("longitude").value]).addTo(mymap)
-    marker.bindPopup(Number(document.getElementById("latitude").value).toFixed(4) + "<br>"+ Number(document.getElementById("longitude").value).toFixed(4)).openPopup();
+    marker.bindPopup("Latitude: " + Number(document.getElementById("latitude").value).toFixed(4) + "<br>Longitude: "+ Number(document.getElementById("longitude").value).toFixed(4)).openPopup();
     markers.push(marker);
 }
 
