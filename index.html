@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <link rel="stylesheet" type="css" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+
+    <script src="https://unpkg.com/chart.js@3.2.1/dist/chart.js"></script>
+    <script src="https://unpkg.com/suncalc@1.8.0"></script>
+    
+</head>
+<body>
+    <div id="mapid">
+    </div>
+    <div id="grid">
+        <div id="userInputs">
+            <label>Latitude:</label>
+            <input type="text" id="latitude" placeholder="e.g. 58.3650"/>
+            <label>Longitude:</label>
+            <input type="text" id="longitude" placeholder="e.g. 26.7413"/>
+
+            <label>Date:</label>
+            <input type="date" id="date"/>
+
+        </div>
+        <div id="buttons">
+            <button type="button" id="clear" onclick = "mapMark()">Mark</button>
+            <button type="button" id="find" onclick = "mapFind()">Find</button>
+            <button type="button" id="clear" onclick = "clearValues()">Clear</button>
+            <button type="button" id="submit" onclick = "solarCalc()">Calculate</button>
+            <label>From</label>
+            <input type="date" id="dateFirst"/>
+            <label>to</label>
+            <input type="date" id="dateLast"/>
+            <label></label>
+            <button type="button" id="showGraph" onclick = "showGraph()">Show graph</button>
+        </div>
+        <div id="result">
+            <div id="resultDesciption">
+                <p>Sunrise:</p>
+                <p>Sunset:</p>
+                <p>Daylength:</p>
+            </div>
+            <div id="resultValues">
+                <p id="sunrise"></p>
+                <p id="sunset"></p>
+                <p id="daylength"></p>
+            </div>
+        </div>
+    </div>
+    <div id="graph">
+        <canvas id="myChart" width="400" height="100"></canvas>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

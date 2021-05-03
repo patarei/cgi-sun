@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(14, 16, 51);
+    color: white;
+}
+
+#mapid {
+    min-height: 400px; 
+    width:100%;
+}
+
+#grid {
+    display: grid;
+    min-width: 500px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#result {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#buttons {
+    display: grid;
+    padding:7px 0 2px 0;
+    grid-template-columns: 1fr 1fr;
+}
+
+#buttons label{
+    text-align: right;
+    margin:5px 10px 0 10px;
+}
+
+#resultDesciption{
+    text-align: right;
+    margin:0 10px 0 10px;
+}
+
+#userInputs label {
+    width:100%;
+    display: block;
+    padding:7px 0 2px 0;
+  }
+
+#userInputs input {
+    width: 199px;
+    display: block;
+    padding:2px 0 2px 0;
+  }
+
+#buttons button {
+    margin:5px 0 5px 0;
+    padding:5px 7px;
+    background:#ffffff;
+    border:0px;
+    width:100%;
+}
+
+#buttons #submit {
+    font-weight : bold;
+    background: rgb(155, 155, 155);
+}
+
+#buttons #showGraph {
+    font-weight : bold;
+    background: rgb(155, 155, 155);
+}
+
+#buttons #find {
+    font-weight : bold;
+    background: rgb(155, 155, 155);
+}
+
+#buttons button:active {
+    transform: translateY(3px);
+  }
+
+::placeholder {
+    text-align: right;
+    color:rgb(199, 199, 199);
+  }
+
+ul {
+    list-style-type: none; 
+}
+
+#graph {
+    padding:20px 7px;
+} 
