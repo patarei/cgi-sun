@@ -9,6 +9,12 @@ Veebirakendus, milles saab kasutaja määrata asukoha ja kuupäeva ning selle in
 * CSS
 * UNPKG
 
+### Kasutamine
+
+Leitav leheküljelt https://patarei.github.io/cgi-sun/
+
+Lokaalselt app.js, style.css ja index.html faile omades võib .html faili ükskõik millise uue veebilehitsejaga lahti võtta ja veebirakendus avaneb ning töötab. Interneti olemasolu on vajalik, sest teegid laetakse CDNist. 
+
 ## Lahendus
 
 ### Etapp 1
