@@ -47,7 +47,6 @@ function dateTime (date, option=1){
 function mapFind() {
     mymap.setView([document.getElementById("latitude").value, document.getElementById("longitude").value], mymap.getZoom())
     solarCalc()
-    mapMark()
 }
 
 /** 
