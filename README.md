@@ -41,13 +41,13 @@ a) Oleks tahtnud CSSi kallal töödada ja telefoni jaoks kujundust parandada. He
 
 ### Ajakulu
 
-15 tundi
+15 tundi.
 
 Selle sees ka tunniajane HTMLi ja Javascripti tutvustava video vaatamine ning töösse mitte jõudnud asukohapõhine kellaaeg.
 
 ### Raske ja lihtne
 
-Kõik on õpitav
+Kõik on õpitav.
 
 ### Ajakulukas
 
@@ -55,7 +55,7 @@ Kulutasin rohkem aega kui tahtnuks skripti(de) paigutamisele HTMLis. Samuti kuup
 
 ### Testimine
 
-Lahendamise ajal korduvalt mõtlesin, et kas oodatakse automaatseid teste veebirakendusele või mitte. Lõpuks otsustas selle küsimuse vaba aja puudumine minu eest
+Lahendamise ajal korduvalt mõtlesin, et kas oodatakse automaatseid teste veebirakendusele või mitte. Lõpuks otsustas selle küsimuse vaba aja puudumine minu eest.
 
 ### Mida teisiti teeks
 
@@ -79,13 +79,13 @@ Selle osa dubleerin issue'de alla.
 
 ### Mida nupud teevad
 
-Mark - võtab pikkus- ja laiuskraadi sisendväljadelt ja lisab märgi kaardile.
+*Mark* - võtab pikkus- ja laiuskraadi sisendväljadelt ja lisab märgi kaardile.
 
-Calculate - võtb pikkus- ja laiuskraadi sisendväljadelt ja arvutab päikesetõusu ja -loojangu aja ning päeva pikkuse.
+*Calculate* - võtb pikkus- ja laiuskraadi sisendväljadelt ja arvutab päikesetõusu ja -loojangu aja ning päeva pikkuse.
 
-Find - võtab pikkus- ja laiuskraadi sisendväljadelt ja seab selle kaardi keskpunktiks, lisaks veel arvutab nagu Calculate ja lisab märgi nagu Mark.
+*Find* - võtab pikkus- ja laiuskraadi sisendväljadelt ja seab selle kaardi keskpunktiks, lisaks veel arvutab nagu Calculate ja lisab märgi nagu Mark.
 
-Clear - puhastab kõik sisend- ja väljundväljad peale kuupäevavahemiku.
+*Clear* - puhastab kõik sisend- ja väljundväljad peale kuupäevavahemiku.
 
-Show graph - kuvab graafiku kõige all
+*Show graph* - kuvab graafiku kõige all.
 
