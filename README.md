@@ -89,7 +89,7 @@ Selle osa dubleerin issue'de alla.
 
 *Calculate* - võtb pikkus- ja laiuskraadi sisendväljadelt ja arvutab päikesetõusu ja -loojangu aja ning päeva pikkuse.
 
-*Find* - võtab pikkus- ja laiuskraadi sisendväljadelt ja seab selle kaardi keskpunktiks, lisaks veel arvutab nagu Calculate ja lisab märgi nagu Mark.
+*Find* - võtab pikkus- ja laiuskraadi sisendväljadelt ja seab selle kaardi keskpunktiks, lisaks veel arvutab nagu *Calculate*.
 
 *Clear* - puhastab kõik sisend- ja väljundväljad peale kuupäevavahemiku.
 
