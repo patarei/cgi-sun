@@ -17,13 +17,13 @@ a) Kasutasin Visual Studio Code'i.
 
 b) Väljad koordinaatidele ja kuupäevale on olemas. EPSG:4326 kasutusel.
 
-c) Päikesetõusu ja loojangu aja arvutused on tehtud Vladimir Agafonkini poolt kirjutatud SunCalc teegiga. Kellaaeg on läbivalt UTC+0
+c) Päikesetõusu ja loojangu aja arvutused on tehtud Vladimir Agafonkini poolt kirjutatud SunCalc teegiga. Kellaaeg on läbivalt UTC+0.
 
 ### Etapp 2
 
 a) Kasutasin Leafleti, mis omakorda kasutab OpenStreetMapi tile'e. Koordinaatide järgi otsides jätab kaardile märgi koos otsitud koordinaatidega.
 
-b) Kaardile klõpsates täidab automaatselt laius- ja pikkuskraadi väärtused
+b) Kaardile klõpsates täidab automaatselt laius- ja pikkuskraadi väärtused.
 
 ### Etapp 3
 
@@ -33,7 +33,7 @@ b) Kuvab graafiliselt päeva pikkuse muutumist valitud ajavahemikul.
 
 ### Etapp 4
 
-I wish
+I wish :)
 
 a) Oleks tahtnud CSSi kallal töödada ja telefoni jaoks kujundust parandada. Hetkel talutava välimusega ainult sülearvuti/personaalarvuti ekraanil.
 
